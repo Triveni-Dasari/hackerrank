@@ -1,0 +1,20 @@
+n=int(input())
+c=set()
+for i in range(n):
+    c.add(input())
+print(len(c))
+
+output:
+
+
+Input (stdin)
+7
+UK
+China
+USA
+France
+New Zealand
+UK
+France
+Expected Output
+5
